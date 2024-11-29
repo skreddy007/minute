@@ -1,0 +1,41 @@
+
+.about-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; 
+    text-align: center;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .about-container h1 {
+    font-size: 2rem;
+    color: #007bff; 
+    margin-bottom: 20px;
+  }
+  
+  .construction-message {
+    color: #ff9800; 
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .about-description {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .features-list {
+    text-align: left; 
+    margin: 0 auto;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #333;
+  }
+  
+  .features-list li {
+    margin-bottom: 10px;
+  }
+  

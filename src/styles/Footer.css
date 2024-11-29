@@ -1,0 +1,15 @@
+/* Footer.css */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 0;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+  

@@ -1,0 +1,37 @@
+.post-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.post-container p {
+    font-size: 1.2rem;
+    color: #555555; /* Subtle gray for messages */
+    margin-top: 20px;
+}
+
+.post-div {
+    text-align: left; /* Aligns post content to the left */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the post */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.post-div h1 {
+    font-size: 2rem; /* Larger font size for the title */
+    color: #333333; /* Dark gray for the title */
+    margin-bottom: 15px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.post-div p {
+    font-size: 1.1rem;
+    color: #555555; /* Medium gray for the content */
+    line-height: 1.8; /* Improves readability */
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
