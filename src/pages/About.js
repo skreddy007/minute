@@ -16,6 +16,7 @@ function About() {
       </p>
 
       <h2>Features Built So Far</h2>
+      
       <ul className="features-list">
         <li>
           <strong>Post Creation:</strong> Share your thoughts with others by creating posts with a title and content.
