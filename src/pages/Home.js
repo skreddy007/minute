@@ -11,6 +11,14 @@ function Home() {
   const handleSubmit = async (e) => {
     e.preventDefault(); 
 
+    const userConfirmed = window.confirm(
+      "Please confirm to share. Once submitted, it cannot be edited. Do you want to continue?"
+    );
+
+    if (!userConfirmed){
+      return;
+    }
+
     try {
       const newPost = { title, content };
       await axios.post("http://localhost:5000/posts", newPost);
@@ -18,7 +26,7 @@ function Home() {
       setTitle("");
       setContent("");
       setSuccessMessage("Minute post shared successfully!")
-      // alert("Minute post created successfully!");
+      
     } catch (error) {
       console.error("Error creating the Minute post:", error);
       alert("Failed to create the Minute post. Please try again.");

@@ -54,6 +54,22 @@ function Posts() {
         />
       </div>
 
+      <div className="pagination">
+        {Array.from({
+          length: Math.ceil(filteredPosts.length / postsPerPage),
+        }).map((_, index) => (
+          <button
+            key={index}
+            className={`page-button ${
+              index + 1 === currentPage ? "active-page" : ""
+            }`}
+            onClick={() => paginate(index + 1)}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
+
       {currentPosts.length > 0 ? (
         currentPosts.map((post) => (
           <div key={post._id} className="post-div">

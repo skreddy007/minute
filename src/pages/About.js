@@ -38,6 +38,11 @@ function About() {
       </p>
 
       <p className="about-description">
+        <strong>Features planning to implement -</strong> Use a UI library probably MUI and some Tailwind CSS, To display Post created time,
+        Add dark/light mode, Maybe add an FAQ section, and so on... 
+      </p>
+
+      <p className="about-description">
         Stay tuned as I continue to improve and add more features to the platform!
       </p>
     </div>
