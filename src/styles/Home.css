@@ -13,12 +13,12 @@
 
 .description {
     padding: 20px;
-    max-width: 900px; 
+    max-width: 700px; 
     text-align: justify; 
     line-height: 1.8; 
-    background-color: #ffffff;
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    /* background-color: #ffffff; */
+    /* border-radius: 10px;  */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  */
 }
 
 .description h2 {
@@ -33,7 +33,7 @@
 }
 
 .form-container {
-    padding: 80px;
+    padding: 60px;
     max-width: 400px; 
     background-color: #ffffff;
     border-radius: 10px;
@@ -71,7 +71,7 @@
     width: 100%;
     height: 150px;
     padding: 8px;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: none;
@@ -90,6 +90,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     transition: border-color 0.3s ease;
+    font-family: 'Georgia', 'Times New Roman', serif;
 }
 
 .title:focus {
